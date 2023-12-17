@@ -23,6 +23,8 @@ Input Apple-related questions when prompted, and the chatbot will provide answer
 Type 'exit' and press Enter to end the program.
 
 
+
+
 test.py:
 This is the main Python script for the chatbot. It loads the dataset (QandA.csv), preprocesses the text, uses trained models (tfidf_vectorizer.joblib and knn_model.joblib) to find the most similar answer to a user's question, and provides a simple GUI using Tkinter for user interaction.
 
