@@ -21,3 +21,16 @@ Input Apple-related questions when prompted, and the chatbot will provide answer
 **Exit the Program:**
 
 Type 'exit' and press Enter to end the program.
+
+
+test.py:
+This is the main Python script for the chatbot. It loads the dataset (QandA.csv), preprocesses the text, uses trained models (tfidf_vectorizer.joblib and knn_model.joblib) to find the most similar answer to a user's question, and provides a simple GUI using Tkinter for user interaction.
+
+
+QandA.csv:
+This CSV file contains Apple-related questions and their corresponding answers. It serves as the dataset for training and testing the chatbot.
+tfidf_vectorizer.joblib and knn_model.joblib:
+These joblib files store the trained TF-IDF vectorizer and kNN model, respectively. The vectorizer converts text data into numerical format, and the kNN model finds the most similar answer to a given question.
+
+tfidf.ipynb:
+This Jupyter Notebook (tfidf.ipynb) is where the models are trained. It involves loading the dataset, preprocessing the text, and training the TF-IDF vectorizer and kNN model.
